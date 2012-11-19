@@ -8,12 +8,10 @@ public class WindowsOS extends OSDecorator {
 		this.smartphone = smartphone;
 	}
 
-	@Override
 	public String getModel() {
 		return this.smartphone.getModel();
 	}
 
-	@Override
 	public String getFeatures() {
 		return this.smartphone.getFeatures() + ", Internet Explorer";
 	}
