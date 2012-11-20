@@ -1,0 +1,11 @@
+Konzept			Konkrete Implementierung
+
+Strategy		OutputStrategy
+StrategyClient		Main
+operation()		print (2x)
+setStrategy()		OutputStrategyFactory.getStrategy (via identifier)
+ConcreateStrategies	Logging, Noop, Popup, Stderr, ...
+
+
+Weshalb wurde das Strategy Pattern verwendet?
+	- Weil es versch. Output - Strategien gibt, welche die gleiche Funktionalitaet in versch. Form zur Verfuegung stellt.
