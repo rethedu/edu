@@ -1,0 +1,18 @@
+Das interface Comparable...
+	- Falsch
+
+Wie vielel Interfaces...
+	- Beliebig viele
+
+Welche Eigenschaften.. Methoden..
+	- Sind per default public, keinen body
+
+Welche Eigenschaften.. Variablen..
+	- Sind per default public static final
+
+Interfaces aus dem JDK
+	- Map: HashMap, TreeMap
+	- Set: HashSet, TreeSet
+
+Nutzen von Interfaces..
+	- Abstraktion, Vertrag (was wird gemacht?)
